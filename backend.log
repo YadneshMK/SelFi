@@ -1,0 +1,56 @@
+INFO:     Will watch for changes in these directories: ['/Users/yadnesh_kombe/hackathon/Finance App/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [80790] using WatchFiles
+/Users/yadnesh_kombe/hackathon/Finance App/backend/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO:     Started server process [80793]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58123 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58335 - "OPTIONS /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58337 - "OPTIONS /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58339 - "OPTIONS /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58340 - "OPTIONS /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58342 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58335 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58339 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58340 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 401 Unauthorized
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/yadnesh_kombe/hackathon/Finance App/backend/venv/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:58422 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "OPTIONS /api/v1/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "GET /api/v1/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "OPTIONS /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58429 - "OPTIONS /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60292 - "OPTIONS /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60292 - "GET /api/v1/portfolios/summary HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51639 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "OPTIONS /api/v1/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "GET /api/v1/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "OPTIONS /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51641 - "OPTIONS /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "OPTIONS /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51671 - "OPTIONS /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "OPTIONS /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51673 - "OPTIONS /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51675 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51675 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51669 - "GET /api/v1/portfolios/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51755 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51754 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51755 - "GET /api/v1/uploads/import-history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51754 - "GET /api/v1/portfolios/platform-accounts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51769 - "OPTIONS /api/v1/portfolios/holdings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51771 - "OPTIONS /api/v1/portfolios/holdings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51769 - "GET /api/v1/portfolios/holdings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51771 - "GET /api/v1/portfolios/holdings HTTP/1.1" 200 OK
